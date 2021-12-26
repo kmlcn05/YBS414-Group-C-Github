@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-3 centeralign">
-   <b-alert show> {{ selectedCustomer }} Selected</b-alert>
+   <b-alert show> {{ selected }} Selected</b-alert>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'display',
   props: {
-    selectedCustomer: String
+    selected: String
   }
 }
 </script>
